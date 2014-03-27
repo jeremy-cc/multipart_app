@@ -1,0 +1,10 @@
+ruby:
+  version: 1.8
+
+pooling:
+  web:
+    type: shared
+    lazy: false
+
+web:
+  context: "/multipart"
